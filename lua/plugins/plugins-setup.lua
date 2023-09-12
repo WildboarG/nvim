@@ -1,4 +1,4 @@
-local ensure_packer = function()
+local ensure_packer = function() 
   local fn = vim.fn
   local install_path = fn.stdpath('data')..'/site/pack/packer/start/packer.nvim'
   if fn.empty(fn.glob(install_path)) > 0 then
@@ -47,12 +47,22 @@ use {
 ---
   use "numToStr/Comment.nvim" -- gcc和gc注释
   use "windwp/nvim-autopairs" -- 自动补全括号
+  use "gko/vim-coloresque" -- 颜色高亮
 
   use {
     'nvim-telescope/telescope.nvim',tag = '0.1.1', -- file search
     requires ={ {'nvim-lua/plenary.nvim'} }
   }
-  use "github/copilot.vim"
+ -- AI 
+ -- use "github/copilot.vim" -- copilot
+  use {
+        'Exafunction/codeium.vim', --codeium
+        requires = {
+            'nvim-lua/plenary.nvim',
+            "hrsh7th/nvim-cmp",
+        }
+    }
+
 ----------------------------------
   if packer_bootstrap then
     require('packer').sync()
