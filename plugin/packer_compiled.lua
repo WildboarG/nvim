@@ -99,10 +99,10 @@ _G.packer_plugins = {
     path = "/home/WildboarG/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
-  ["copilot.vim"] = {
+  ["codeium.vim"] = {
     loaded = true,
-    path = "/home/WildboarG/.local/share/nvim/site/pack/packer/start/copilot.vim",
-    url = "https://github.com/github/copilot.vim"
+    path = "/home/WildboarG/.local/share/nvim/site/pack/packer/start/codeium.vim",
+    url = "https://github.com/Exafunction/codeium.vim"
   },
   ["friendly-snippets"] = {
     loaded = true,
@@ -179,6 +179,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/WildboarG/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
     url = "https://github.com/folke/tokyonight.nvim"
+  },
+  ["vim-coloresque"] = {
+    loaded = true,
+    path = "/home/WildboarG/.local/share/nvim/site/pack/packer/start/vim-coloresque",
+    url = "https://github.com/gko/vim-coloresque"
   }
 }
 
