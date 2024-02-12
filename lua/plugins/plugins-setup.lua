@@ -62,6 +62,7 @@ use {
             "hrsh7th/nvim-cmp",
         }
     }
+--hal库
 
 ----------------------------------
   if packer_bootstrap then

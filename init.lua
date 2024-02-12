@@ -17,6 +17,3 @@ require("plugins/telescope") --模糊搜索
 --vim.opt.runtimepath:append("/home/WildboarG/work/neovim_project/example")
 --local pkg = require("example")
 --pkg.setup({colors = "#324432"})
-vim.opt.runtimepath:append("/home/WildboarG/work/neovim_project/whid")
-local pkg = require("whid")
---pkg.setup()
